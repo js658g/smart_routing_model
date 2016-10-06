@@ -1,0 +1,9 @@
+rate_tree_yaml: ./inputs/config/rate_tree.yml
+bin_tree_yaml: ./inputs/config/bin_tree.yml
+pin_bin_file_folder: ./inputs/pin_debit_bin_files/
+gbf_bin_file_folder: ./inputs/global_bin_files/
+rates_folder: ./inputs/rates/
+output_folder: outputs/
+pre_auth_mccs: [5542] #must have a space after the comma if you enter multiple MCCs. Example: [5542, 5541] and NOT [5542,5541]
+bin_file_download_user: MNOP-001233
+bin_file_download_password: $m4rtr0ut1ng6

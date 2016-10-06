@@ -1,0 +1,449 @@
+network_id,network_name,category,mccs,mcc_low,mcc_high,pinless,registered,regulated,fraud,prepaid,tier,pre_auth,bid_fee,fee_type,price_type,price_fixed,price_percent,price_min,price_max,price_fraud,price_threshold_sign,price_threshold
+2,ACCEL,Grocery / Supermarket,"5411,5300",null,null,0,null,0,null,null,4I,null,0,Interchange, F ,$0.2500,null,null,null, $-   , > , $15.0000 
+2,ACCEL,Grocery / Supermarket,"5411,5300",null,null,0,null,0,null,null,3I,null,0,Interchange, F ,$0.2300,null,null,null, $-   , > , $15.0000 
+2,ACCEL,Grocery / Supermarket,"5411,5300",null,null,0,null,0,null,null,2I,null,0,Interchange, F ,$0.2000,null,null,null, $-   , > , $15.0000 
+2,ACCEL,Grocery / Supermarket,"5411,5300",null,null,0,null,0,null,null,1I,null,0,Interchange, F ,$0.1800,null,null,null, $-   , > , $15.0000 
+2,ACCEL,QSR,5814,null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.1500,0.95%, $0.1500 ," $100,000.0000 ", $-   , > , $15.0000 
+2,ACCEL,Petroleum,"5541,5542",null,null,0,null,0,null,null,4I,null,0,Interchange, V ,$0.1000,0.80%, $0.1000 , $0.9500 , $-   , > , $15.0000 
+2,ACCEL,Petroleum,"5541,5542",null,null,0,null,0,null,null,3I,null,0,Interchange, V ,$0.1000,0.80%, $0.1000 , $0.9500 , $-   , > , $15.0000 
+2,ACCEL,Petroleum,"5541,5542",null,null,0,null,0,null,null,2I,null,0,Interchange, V ,$0.1000,0.70%, $0.1000 , $0.9500 , $-   , > , $15.0000 
+2,ACCEL,Petroleum,"5541,5542",null,null,0,null,0,null,null,1I,null,0,Interchange, V ,$0.0900,0.70%, $0.0900 , $0.9500 , $-   , > , $15.0000 
+2,ACCEL,All Other Merchant Types,*,null,null,0,null,0,null,null,4I,null,0,Interchange, V ,$0.1000,0.85%, $0.1000 ," $100,000.0000 ", $-   , > , $15.0000 
+2,ACCEL,All Other Merchant Types,*,null,null,0,null,0,null,null,3I,null,0,Interchange, V ,$0.1000,0.80%, $0.1000 ," $100,000.0000 ", $-   , > , $15.0000 
+2,ACCEL,All Other Merchant Types,*,null,null,0,null,0,null,null,2I,null,0,Interchange, V ,$0.1100,0.55%, $0.1100 , $0.5500 , $-   , > , $15.0000 
+2,ACCEL,All Other Merchant Types,*,null,null,0,null,0,null,null,1I,null,0,Interchange, V ,$0.0600,0.50%, $0.0600 , $0.4500 , $-   , > , $15.0000 
+2,ACCEL,Grocery / Supermarket,"5411,5300",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.0400,1.00%, $0.0400 ," $100,000.0000 ", $-   , <= , $15.0000 
+2,ACCEL,QSR,5814,null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.0400,1.00%, $0.0400 ," $100,000.0000 ", $-   , <= , $15.0000 
+2,ACCEL,Petroleum,"5541,5542",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.0400,1.00%, $0.0400 ," $100,000.0000 ", $-   , <= , $15.0000 
+2,ACCEL,All Other Merchant Types,*,null,null,0,null,0,null,null,4I,null,0,Interchange, V ,$0.0400,1.00%, $0.0400 ," $100,000.0000 ", $-   , <= , $15.0000 
+2,ACCEL,All Other Merchant Types,*,null,null,0,null,0,null,null,3I,null,0,Interchange, V ,$0.0400,1.00%, $0.0400 ," $100,000.0000 ", $-   , <= , $15.0000 
+2,ACCEL,All Other Merchant Types,*,null,null,0,null,0,null,null,2I,null,0,Interchange, V ,$0.0400,1.00%, $0.0400 ," $100,000.0000 ", $-   , <= , $15.0000 
+2,ACCEL,All Other Merchant Types,*,null,null,0,null,0,null,null,1I,null,0,Interchange, V ,$0.0600,0.50%, $0.0600 ," $100,000.0000 ", $-   , <= , $15.0000 
+2,ACCEL,All,null,null,null,null,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+2,ACCEL,All,null,null,null,null,null,null,null,null,null,null,0,Switch, F ,$0.0400,null, null , null , $-   , >= , $-   
+2,ACCEL,All,null,null,null,null,null,null,null,null,null,1,0,Pre Auth, F ,$0.0400,null, null , null , $-   , >= , $-   
+2,ACCEL,All,null,null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.0400,1.55%, $0.0400 ," $100,000.0000 ", $-   , >= , $-   
+3,ACCEL ASSURANCE,Grocery / Supermarket,"5411,5300",null,null,0,null,0,null,null,4I,null,0,Interchange, F ,$0.2000,null,null,null, $-   , > , $15.0000 
+3,ACCEL ASSURANCE,Grocery / Supermarket,"5411,5300",null,null,0,null,0,null,null,3I,null,0,Interchange, F ,$0.2000,null,null,null, $-   , > , $15.0000 
+3,ACCEL ASSURANCE,Grocery / Supermarket,"5411,5300",null,null,0,null,0,null,null,2I,null,0,Interchange, F ,$0.2000,null,null,null, $-   , > , $15.0000 
+3,ACCEL ASSURANCE,Grocery / Supermarket,"5411,5300",null,null,0,null,0,null,null,1I,null,0,Interchange, F ,$0.1800,null,null,null, $-   , > , $15.0000 
+3,ACCEL ASSURANCE,Grocery / Supermarket,"5411,5300",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.0600,1.00%, $0.0600 ," $100,000.0000 ", $-   , <= , $15.0000 
+3,ACCEL ASSURANCE,QSR,5814,null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.1300,0.90%, $0.1300 ," $100,000.0000 ", $-   , > , $15.0000 
+3,ACCEL ASSURANCE,QSR,5814,null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.0600,1.00%, $0.0600 ," $100,000.0000 ", $-   , <= , $15.0000 
+3,ACCEL ASSURANCE,Petroleum,"5541,5542",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.1800,0.07%, $0.1800 ," $100,000.0000 ", $-   , > , $15.0000 
+3,ACCEL ASSURANCE,Petroleum,"5541,5542",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.0600,1.00%, $0.0300 ," $100,000.0000 ", $-   , <= , $15.0000 
+3,ACCEL ASSURANCE,All Other Merchant Types,*,null,null,0,null,0,null,null,4I,null,0,Interchange, V ,$0.1800,0.07%, $0.1800 ," $100,000.0000 ", $-   , > , $15.0000 
+3,ACCEL ASSURANCE,All Other Merchant Types,*,null,null,0,null,0,null,null,3I,null,0,Interchange, V ,$0.1800,0.07%, $0.1800 ," $100,000.0000 ", $-   , > , $15.0000 
+3,ACCEL ASSURANCE,All Other Merchant Types,*,null,null,0,null,0,null,null,2I,null,0,Interchange, V ,$0.1800,0.07%, $0.1800 ," $100,000.0000 ", $-   , > , $15.0000 
+3,ACCEL ASSURANCE,All Other Merchant Types,*,null,null,0,null,0,null,null,1I,null,0,Interchange, V ,$0.1200,0.05%, $0.1200 , $0.4500 , $-   , > , $15.0000 
+3,ACCEL ASSURANCE,All Other Merchant Types,*,null,null,0,null,0,null,null,4I,null,0,Interchange, V ,$0.0600,1.00%, $0.0300 ," $100,000.0000 ", $-   , <= , $15.0000 
+3,ACCEL ASSURANCE,All Other Merchant Types,*,null,null,0,null,0,null,null,3I,null,0,Interchange, V ,$0.0600,1.00%, $0.0300 ," $100,000.0000 ", $-   , <= , $15.0000 
+3,ACCEL ASSURANCE,All Other Merchant Types,*,null,null,0,null,0,null,null,2I,null,0,Interchange, V ,$0.0600,1.00%, $0.0300 ," $100,000.0000 ", $-   , <= , $15.0000 
+3,ACCEL ASSURANCE,All Other Merchant Types,*,null,null,0,null,0,null,null,1I,null,0,Interchange, V ,$0.1200,0.05%, $0.1200 ," $100,000.0000 ", $-   , <= , $15.0000 
+3,ACCEL ASSURANCE,All,null,null,null,null,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+3,ACCEL ASSURANCE,All,null,null,null,null,null,null,null,null,null,null,0,Switch, F ,$0.0400,null, null , null , $-   , >= , $-   
+3,ACCEL ASSURANCE,All,null,null,null,null,null,null,null,null,null,1,0,Pre Auth, F ,$0.0400,null, null , null , $-   , >= , $-   
+3,ACCEL ASSURANCE,All,null,null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.0400,1.55%, $0.0400 ," $100,000.0000 ", $-   , >= , $-   
+4,ACCEL ADVANTAGE,Grocery / Supermarket,"5411,5300",null,null,0,null,0,null,null,4I,null,0,Interchange, F ,$0.3550,null,null,null, $-   , > , $15.0000 
+4,ACCEL ADVANTAGE,Grocery / Supermarket,"5411,5300",null,null,0,null,0,null,null,3I,null,0,Interchange, F ,$0.3200,null,null,null, $-   , > , $15.0000 
+4,ACCEL ADVANTAGE,Grocery / Supermarket,"5411,5300",null,null,0,null,0,null,null,2I,null,0,Interchange, F ,$0.2800,null,null,null, $-   , > , $15.0000 
+4,ACCEL ADVANTAGE,Grocery / Supermarket,"5411,5300",null,null,0,null,0,null,null,1I,null,0,Interchange, F ,$0.2400,null,null,null, $-   , > , $15.0000 
+4,ACCEL ADVANTAGE,QSR,5814,null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.1850,1.20%, $0.1850 ," $100,000.0000 ", $-   , > , $15.0000 
+4,ACCEL ADVANTAGE,Petroleum,"5541,5542",null,null,0,null,0,null,null,4I,null,0,Interchange, V ,$0.1750,0.85%, $0.1750 ," $100,000.0000 ", $-   , > , $15.0000 
+4,ACCEL ADVANTAGE,Petroleum,"5541,5542",null,null,0,null,0,null,null,3I,null,0,Interchange, V ,$0.1700,0.85%, $0.1700 , $0.9500 , $-   , > , $15.0000 
+4,ACCEL ADVANTAGE,Petroleum,"5541,5542",null,null,0,null,0,null,null,2I,null,0,Interchange, V ,$0.1650,0.80%, $0.1650 , $0.9500 , $-   , > , $15.0000 
+4,ACCEL ADVANTAGE,Petroleum,"5541,5542",null,null,0,null,0,null,null,1I,null,0,Interchange, V ,$0.1750,0.75%, $0.1750 , $0.9000 , $-   , > , $15.0000 
+4,ACCEL ADVANTAGE,All Other Merchant Types,*,null,null,0,null,0,null,null,4I,null,0,Interchange, V ,$0.2250,0.90%, $0.2250 ," $100,000.0000 ", $-   , > , $15.0000 
+4,ACCEL ADVANTAGE,All Other Merchant Types,*,null,null,0,null,0,null,null,3I,null,0,Interchange, V ,$0.2250,0.80%, $0.2250 ," $100,000.0000 ", $-   , > , $15.0000 
+4,ACCEL ADVANTAGE,All Other Merchant Types,*,null,null,0,null,0,null,null,2I,null,0,Interchange, V ,$0.1750,0.70%, $0.1750 , $0.8000 , $-   , > , $15.0000 
+4,ACCEL ADVANTAGE,All Other Merchant Types,*,null,null,0,null,0,null,null,1I,null,0,Interchange, V ,$0.1450,0.55%, $0.1450 , $0.6000 , $-   , > , $15.0000 
+4,ACCEL ADVANTAGE,Grocery / Supermarket,"5411,5300",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.0800,1.00%, $0.0800 ," $100,000.0000 ", $-   , <= , $15.0000 
+4,ACCEL ADVANTAGE,QSR,5814,null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.0800,1.00%, $0.0800 ," $100,000.0000 ", $-   , <= , $15.0000 
+4,ACCEL ADVANTAGE,Petroleum,"5541,5542",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.0800,1.00%, $0.0800 ," $100,000.0000 ", $-   , <= , $15.0000 
+4,ACCEL ADVANTAGE,All Other Merchant Types,*,null,null,0,null,0,null,null,4I,null,0,Interchange, V ,$0.0800,1.00%, $0.0800 ," $100,000.0000 ", $-   , <= , $15.0000 
+4,ACCEL ADVANTAGE,All Other Merchant Types,*,null,null,0,null,0,null,null,3I,null,0,Interchange, V ,$0.0800,1.00%, $0.0800 ," $100,000.0000 ", $-   , <= , $15.0000 
+4,ACCEL ADVANTAGE,All Other Merchant Types,*,null,null,0,null,0,null,null,2I,null,0,Interchange, V ,$0.0800,1.00%, $0.0800 ," $100,000.0000 ", $-   , <= , $15.0000 
+4,ACCEL ADVANTAGE,All Other Merchant Types,*,null,null,0,null,0,null,null,1I,null,0,Interchange, V ,$0.0800,1.00%, $0.0800 ," $100,000.0000 ", $-   , <= , $15.0000 
+4,ACCEL ADVANTAGE,All,null,null,null,null,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+4,ACCEL ADVANTAGE,All,null,null,null,null,null,null,null,null,null,null,0,Switch, F ,$0.0400,null, null , null , $-   , >= , $-   
+4,ACCEL ADVANTAGE,All,null,null,null,null,null,null,null,null,null,1,0,Pre Auth, F ,$0.0400,null, null , null , $-   , >= , $-   
+4,ACCEL ADVANTAGE,All,null,null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.0400,1.55%, $0.0400 ," $100,000.0000 ", $-   , >= , $-   
+5,AFFN,Supermarkets,"5411,5300",null,null,0,null,0,null,null,null,null,0,Interchange, F ,$0.2300,null, null , null , $-   , >= , $-   
+5,AFFN,Supermarkets,"5411,5300",null,null,0,null,1,null,null,null,null,0,Interchange, F ,$0.2200,null, null , null , $-   , >= , $-   
+5,AFFN,QSR,5814,null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.0200,1.15%, $0.0200 ," $100,000.0000 ", $-   , >= , $-   
+5,AFFN,QSR,5814,null,null,0,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+5,AFFN,Major Merchants,"5310,5331,5499,5912,7511,9399,9402",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.1000,0.60%, $0.1000 , $0.5000 , $-   , >= , $15.0000 
+5,AFFN,Major Merchants,"5310,5331,5499,5912,7511,9399,9402",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.0200,1.20%, $0.0200 ," $100,000.0000 ", $-   , < , $15.0000 
+5,AFFN,Major Merchants,"5310,5331,5499,5912,7511,9399,9402",null,null,0,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+5,AFFN,Petroleum,"5541,5542",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.1000,0.60%, $0.1000 , $0.5000 , $-   , >= , $15.0000 
+5,AFFN,Petroleum,"5541,5542",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.0200,1.20%, $0.0200 ," $100,000.0000 ", $-   , < , $15.0000 
+5,AFFN,Petroleum,"5541,5542",null,null,0,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+5,AFFN,Standard Merchants,*,null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.1200,0.75%, $0.1200 , $0.9000 , $-   , >= , $-   
+5,AFFN,Standard Merchants,*,null,null,0,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+5,AFFN,All,null,null,null,0,null,null,null,null,null,null,0,Switch, F ,$0.0350,null, null , null , $-   , >= , $-   
+5,AFFN,All,null,null,null,0,null,null,null,null,null,1,0,Pre Auth, F ,$0.0350,null, null , null , $-   , >= , $-   
+7,ALASKA OPTION,Grocery,"5411,5300",null,null,0,null,0,null,null,null,null,0,Interchange, F ,$0.1400,null, null , null , $-   , >= , $-   
+7,ALASKA OPTION,Petroleum,"5172,5541,5542,7538",null,null,0,null,0,null,null,null,null,0,Interchange, F ,$0.2300,null, null , null , $-   , >= , $-   
+7,ALASKA OPTION,All Other,*,null,null,0,null,0,null,null,null,null,0,Interchange, F ,$0.2300,null, null , null , $-   , >= , $-   
+7,ALASKA OPTION,All,null,null,null,0,null,0,null,null,null,null,0,Switch, F ,$0.0800,null, null , null , $-   , >= , $-   
+16,CU24,Supermarkets,"5411,5300",null,null,0,null,0,null,null,2I,null,0,Interchange, F ,$0.2750,null, null , null , $-   , >= , $-   
+16,CU24,Supermarkets,"5411,5300",null,null,0,null,0,null,null,1I,null,0,Interchange, F ,$0.1850,null, null , null , $-   , >= , $-   
+16,CU24,Petroleum,"5541,5542,7511",null,null,0,null,0,null,null,2I,null,0,Interchange, V ,$0.1300,0.80%, $0.1300 ," $100,000.0000 ", $-   , >= , $-   
+16,CU24,Petroleum,"5541,5542,7511",null,null,0,null,0,null,null,1I,null,0,Interchange, V ,$0.1200,0.70%, $0.1200 , $0.8500 , $-   , >= , $-   
+16,CU24,QSR,"5812,5814",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.0600,1.25%, $0.0600 ," $100,000.0000 ", $-   , >= , $-   
+16,CU24,Standard/All Other POS Merchants,*,null,null,0,null,0,null,null,2I,null,0,Interchange, V ,$0.1650,0.75%, $0.1650 ," $100,000.0000 ", $-   , >= , $-   
+16,CU24,Standard/All Other POS Merchants,*,null,null,0,null,0,null,null,1I,null,0,Interchange, V ,$0.0800,0.55%, $0.0800 , $0.5500 , $-   , >= , $-   
+16,CU24,All,null,null,null,0,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+16,CU24,All,null,null,null,0,null,null,null,null,null,null,0,Switch, F ,$0.0300,null, null , null , $-   , >= , $-   
+16,CU24,All,null,null,null,0,null,null,null,null,null,1,0,Pre Auth, F ,$0.0300,null, null , null , $-   , >= , $-   
+25,INTERLINK,Supermarket,5411,null,null,0,null,0,null,0,null,null,0,Interchange, F ,$0.3000,null, null , null , $-   , >= , $-   
+25,INTERLINK,Supermarket,5411,null,null,0,null,0,null,1,null,null,0,Interchange, V ,$0.1500,1.15%, $0.1500 , $0.3500 , $-   , >= , $-   
+25,INTERLINK,Retail,*,null,null,0,null,0,null,0,null,null,0,Interchange, V ,$0.1500,0.80%, $0.1500 ," $100,000.0000 ", $-   , >= , $-   
+25,INTERLINK,Retail,*,null,null,0,null,0,null,1,null,null,0,Interchange, V ,$0.1500,1.15%, $0.1500 ," $100,000.0000 ", $-   , >= , $-   
+25,INTERLINK,Fuel,"5541,5542",null,null,0,null,0,null,0,null,null,0,Interchange, V ,$0.1500,0.80%, $0.1500 , $0.9500 , $-   , >= , $-   
+25,INTERLINK,Fuel,"5541,5542",null,null,0,null,0,null,1,null,null,0,Interchange, V ,$0.1500,1.15%, $0.1500 , $0.9500 , $-   , >= , $-   
+25,INTERLINK,Travel Service,range,3000,3999,0,null,0,null,0,null,null,0,Interchange, V ,$0.1000,1.19%, $0.1000 ," $100,000.0000 ", $-   , >= , $-   
+25,INTERLINK,Travel Service,range,3000,3999,0,null,0,null,1,null,null,0,Interchange, V ,$0.1500,1.15%, $0.1500 ," $100,000.0000 ", $-   , >= , $-   
+25,INTERLINK,Travel Service,"4112,4411,4511,4722,5812,5814,7011,7512",null,null,0,null,0,null,0,null,null,0,Interchange, V ,$0.1000,1.19%, $0.1000 ," $100,000.0000 ", $-   , >= , $-   
+25,INTERLINK,Travel Service,"4112,4411,4511,4722,5812,5814,7011,7512",null,null,0,null,0,null,1,null,null,0,Interchange, V ,$0.1500,1.15%, $0.1500 ," $100,000.0000 ", $-   , >= , $-   
+25,INTERLINK,All,null,null,null,0,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+25,INTERLINK,All,null,null,null,0,null,null,null,null,null,null,0,Switch, V ,$0.0225,0.08%, $0.0225 , $0.0350 , $-   , >= , $-   
+25,INTERLINK,All,null,null,null,0,null,null,null,null,null,1,0,Pre Auth, F ,$0.0050,null, null , null , $-   , >= , $-   
+25,INTERLINK,All Bid,null,null,null,0,null,null,null,null,null,null,1,Bid, F ,-$0.0002,null, null , null , $-   , >= , $-   
+56,INTERLINK BUSINESS,All,null,null,null,0,null,0,null,0,null,null,0,Interchange, V ,$0.1000,1.70%, $0.1000 ," $100,000.0000 ", $-   , >= , $-   
+56,INTERLINK BUSINESS,All,null,null,null,0,null,0,null,1,null,null,0,Interchange, V ,$0.1000,2.15%, $0.1000 ," $100,000.0000 ", $-   , >= , $-   
+56,INTERLINK BUSINESS,All,null,null,null,0,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+56,INTERLINK BUSINESS,All,null,null,null,0,null,null,null,null,null,null,0,Switch, V ,$0.0225,0.08%, $0.0225 , $0.0350 , $-   , >= , $-   
+56,INTERLINK BUSINESS,All,null,null,null,0,null,null,null,null,null,1,0,Pre Auth, F ,$0.0050,null, null , null , $-   , >= , $-   
+56,INTERLINK BUSINESS,All Bid,null,null,null,0,null,null,null,null,null,null,1,Bid, F ,-$0.0002,null, null , null , $-   , >= , $-   
+20,PAVD,PAVD Supermarket,5411,null,null,0,null,0,null,0,null,null,0,Interchange, F ,$0.3000,null, null , null , $-   , >= , $-   
+20,PAVD,PAVD Supermarket,5411,null,null,0,null,0,null,1,null,null,0,Interchange, V ,$0.1500,1.15%, $0.1500 , $0.3500 , $-   , >= , $-   
+20,PAVD,PAVD Retail,*,null,null,0,null,0,null,0,null,null,0,Interchange, V ,$0.1500,0.80%, $0.1500 ," $100,000.0000 ", $-   , >= , $-   
+20,PAVD,PAVD Retail,*,null,null,0,null,0,null,1,null,null,0,Interchange, V ,$0.1500,1.15%, $0.1500 ," $100,000.0000 ", $-   , >= , $-   
+20,PAVD,PAVD Fuel,"5541,5542",null,null,0,null,0,null,0,null,null,0,Interchange, V ,$0.1500,0.80%, $0.1500 , $0.9500 , $-   , >= , $-   
+20,PAVD,PAVD Fuel,"5541,5542",null,null,0,null,0,null,1,null,null,0,Interchange, V ,$0.1500,1.15%, $0.1500 , $0.9500 , $-   , >= , $-   
+20,PAVD,PAVD Travel Service,range,3000,3999,0,null,0,null,0,null,null,0,Interchange, V ,$0.1000,1.19%, $0.1000 ," $100,000.0000 ", $-   , >= , $-   
+20,PAVD,PAVD Travel Service,range,3000,3999,0,null,0,null,1,null,null,0,Interchange, V ,$0.1500,1.15%, $0.1500 ," $100,000.0000 ", $-   , >= , $-   
+20,PAVD,PAVD Travel Service,"4112,4411,4511,4722,5812,5814,7011,7512",null,null,0,null,0,null,0,null,null,0,Interchange, V ,$0.1000,1.19%, $0.1000 ," $100,000.0000 ", $-   , >= , $-   
+20,PAVD,PAVD Travel Service,"4112,4411,4511,4722,5812,5814,7011,7512",null,null,0,null,0,null,1,null,null,0,Interchange, V ,$0.1500,1.15%, $0.1500 ," $100,000.0000 ", $-   , >= , $-   
+20,PAVD,All,null,null,null,0,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+20,PAVD,All,null,null,null,0,null,null,null,null,null,null,0,Switch, V ,$0.0225,0.08%, $0.0225 , $0.0350 , $-   , >= , $-   
+20,PAVD,All,null,null,null,0,null,null,null,null,null,1,0,Pre Auth, F ,$0.0050,null, null , null , $-   , >= , $-   
+20,PAVD,All Bid,null,null,null,0,null,null,null,null,null,null,1,Bid, F ,-$0.0002,null, null , null , $-   , >= , $-   
+58,PAVD BUSINESS,All,null,null,null,0,null,0,null,0,null,null,0,Interchange, V ,$0.1000,1.70%, $0.1000 ," $100,000.0000 ", $-   , >= , $-   
+58,PAVD BUSINESS,All,null,null,null,0,null,0,null,1,null,null,0,Interchange, V ,$0.1000,2.15%, $0.1000 ," $100,000.0000 ", $-   , >= , $-   
+58,PAVD BUSINESS,All,null,null,null,0,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+58,PAVD BUSINESS,All,null,null,null,0,null,null,null,null,null,null,0,Switch, V ,$0.0225,0.08%, $0.0225 , $0.0350 , $-   , >= , $-   
+58,PAVD BUSINESS,All,null,null,null,0,null,null,null,null,null,1,0,Pre Auth, F ,$0.0050,null, null , null , $-   , >= , $-   
+58,PAVD BUSINESS,All Bid,null,null,null,0,null,null,null,null,null,null,1,Bid, F ,-$0.0002,null, null , null , $-   , >= , $-   
+27,JEANIE,Supermarket,"5411,5300",null,null,0,null,0,null,null,3I,null,0,Interchange, F ,$0.2600,null, null , null , $-   , >= , $-   
+27,JEANIE,Supermarket,"5411,5300",null,null,0,null,0,null,null,2I,null,0,Interchange, F ,$0.2100,null, null , null , $-   , >= , $-   
+27,JEANIE,Supermarket,"5411,5300",null,null,0,null,0,null,null,1I,null,0,Interchange, F ,$0.1600,null, null , null , $-   , >= , $-   
+27,JEANIE,Supermarket,"5411,5300",null,null,0,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+27,JEANIE,Supermarket,"5411,5300",null,null,0,null,null,null,null,1S,null,0,Switch, F ,$0.0450,null, null , null , $-   , >= , $-   
+27,JEANIE,Supermarket,"5411,5300",null,null,0,null,null,null,null,2S,null,0,Switch, F ,$0.0450,null, null , null , $-   , >= , $-   
+27,JEANIE,Supermarket,"5411,5300",null,null,0,null,null,null,null,3S,null,0,Switch, F ,$0.0550,null, null , null , $-   , >= , $-   
+27,JEANIE,Supermarket,"5411,5300",null,null,0,null,null,null,null,1S,1,0,Pre Auth, F ,$0.0450,null, null , null , $-   , >= , $-   
+27,JEANIE,Supermarket,"5411,5300",null,null,0,null,null,null,null,2S,1,0,Pre Auth, F ,$0.0450,null, null , null , $-   , >= , $-   
+27,JEANIE,Supermarket,"5411,5300",null,null,0,null,null,null,null,3S,1,0,Pre Auth, F ,$0.0550,null, null , null , $-   , >= , $-   
+27,JEANIE,QSR,5814,null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.0400,1.55%, $0.0400 , $9.9900 , $-   , >= , $-   
+27,JEANIE,QSR,5814,null,null,0,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+27,JEANIE,QSR,5814,null,null,0,null,null,null,null,null,null,0,Switch, F ,$0.0350,null, null , null , $-   , >= , $-   
+27,JEANIE,QSR,5814,null,null,0,null,null,null,null,null,1,0,Pre Auth, F ,$0.0350,null, null , null , $-   , >= , $-   
+27,JEANIE,All Other,*,null,null,0,null,0,null,null,1I,null,0,Interchange, V ,$0.0600,0.50%, $0.0600 , $0.4750 , $-   , >= , $-   
+27,JEANIE,All Other,*,null,null,0,null,0,null,null,2I,null,0,Interchange, V ,$0.1000,0.60%, $0.1000 , $0.6250 , $-   , >= , $-   
+27,JEANIE,All Other,*,null,null,0,null,0,null,null,3I,null,0,Interchange, V ,$0.1400,0.75%, $0.1400 , $9.9900 , $-   , >= , $-   
+27,JEANIE,All Other,*,null,null,0,null,1,null,null,3I,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+27,JEANIE,All Other,*,null,null,0,null,1,null,null,2I,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+27,JEANIE,All Other,*,null,null,0,null,1,0,null,1I,null,0,Interchange, V ,$0.1000,0.60%, $0.1000 ," $100,000.0000 ", $-   , < , $20.0000 
+27,JEANIE,All Other,*,null,null,0,null,1,0,null,1I,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $-   , >= , $20.0000 
+27,JEANIE,All Other,*,null,null,0,null,1,1,null,1I,null,0,Interchange, V ,$0.1000,0.60%, $0.1000 ," $100,000.0000 ", $0.0100 , < , $21.8181 
+27,JEANIE,All Other,*,null,null,0,null,1,1,null,1I,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $21.8181 
+27,JEANIE,All Other,*,null,null,0,null,null,null,null,1S,null,0,Switch, F ,$0.0450,null, null , null , $-   , >= , $-   
+27,JEANIE,All Other,*,null,null,0,null,null,null,null,2S,null,0,Switch, F ,$0.0450,null, null , null , $-   , >= , $-   
+27,JEANIE,All Other,*,null,null,0,null,null,null,null,3S,null,0,Switch, F ,$0.0550,null, null , null , $-   , >= , $-   
+27,JEANIE,All Other,*,null,null,0,null,null,null,null,1S,1,0,Pre Auth, F ,$0.0450,null, null , null , $-   , >= , $-   
+27,JEANIE,All Other,*,null,null,0,null,null,null,null,2S,1,0,Pre Auth, F ,$0.0450,null, null , null , $-   , >= , $-   
+27,JEANIE,All Other,*,null,null,0,null,null,null,null,3S,1,0,Pre Auth, F ,$0.0550,null, null , null , $-   , >= , $-   
+27,JEANIE,Petroleum,"5541,5542",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.1000,0.80%, $0.1000 , $0.9500 , $-   , >= , $-   
+27,JEANIE,Petroleum,"5541,5542",null,null,0,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+27,JEANIE,Petroleum,"5541,5542",null,null,0,null,null,null,null,null,null,0,Switch, F ,$0.0550,null, null , null , $-   , >= , $-   
+27,JEANIE,Petroleum,"5541,5542",null,null,0,null,null,null,null,null,1,0,Pre Auth, F ,$0.0550,null, null , null , $-   , >= , $-   
+55,JEANIE PREFERRED,Supermarket,"5411,5300",null,null,0,null,0,null,null,3I,null,0,Interchange, F ,$0.3600,null, null , null , $-   , >= , $-   
+55,JEANIE PREFERRED,Supermarket,"5411,5300",null,null,0,null,0,null,null,2I,null,0,Interchange, F ,$0.2800,null, null , null , $-   , >= , $-   
+55,JEANIE PREFERRED,Supermarket,"5411,5300",null,null,0,null,0,null,null,1I,null,0,Interchange, F ,$0.2400,null, null , null , $-   , >= , $-   
+55,JEANIE PREFERRED,QSR,5814,null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.0400,1.55%, $0.0400 , $9.9900 , $-   , >= , $-   
+55,JEANIE PREFERRED,All Other,*,null,null,0,null,0,null,null,1I,null,0,Interchange, V ,$0.1100,0.60%, $0.1100 , $0.5750 , $-   , >= , $-   
+55,JEANIE PREFERRED,All Other,*,null,null,0,null,0,null,null,2I,null,0,Interchange, V ,$0.1800,0.70%, $0.1800 , $0.8300 , $-   , >= , $-   
+55,JEANIE PREFERRED,All Other,*,null,null,0,null,0,null,null,3I,null,0,Interchange, V ,$0.2000,0.80%, $0.2000 , $9.9900 , $-   , >= , $-   
+55,JEANIE PREFERRED,All Other,*,null,null,0,null,1,null,null,3I,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+55,JEANIE PREFERRED,All Other,*,null,null,0,null,1,null,null,2I,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+55,JEANIE PREFERRED,All Other,*,null,null,0,null,1,0,null,1I,null,0,Interchange, V ,$0.1000,0.60%, $0.1000 ," $100,000.0000 ", $-   , < , $20.0000 
+55,JEANIE PREFERRED,All Other,*,null,null,0,null,1,0,null,1I,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $-   , >= , $20.0000 
+55,JEANIE PREFERRED,All Other,*,null,null,0,null,1,1,null,1I,null,0,Interchange, V ,$0.1000,0.60%, $0.1000 ," $100,000.0000 ", $0.0100 , < , $21.8181 
+55,JEANIE PREFERRED,All Other,*,null,null,0,null,1,1,null,1I,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $21.8181 
+55,JEANIE PREFERRED,All Other,*,null,null,0,null,null,null,null,1S,null,0,Switch, F ,$0.0500,null, null , null , $-   , >= , $-   
+55,JEANIE PREFERRED,All Other,*,null,null,0,null,null,null,null,2S,null,0,Switch, F ,$0.0500,null, null , null , $-   , >= , $-   
+55,JEANIE PREFERRED,All Other,*,null,null,0,null,null,null,null,3S,null,0,Switch, F ,$0.0550,null, null , null , $-   , >= , $-   
+55,JEANIE PREFERRED,All Other,*,null,null,0,null,null,null,null,1S,1,0,Pre Auth, F ,$0.0500,null, null , null , $-   , >= , $-   
+55,JEANIE PREFERRED,All Other,*,null,null,0,null,null,null,null,2S,1,0,Pre Auth, F ,$0.0500,null, null , null , $-   , >= , $-   
+55,JEANIE PREFERRED,All Other,*,null,null,0,null,null,null,null,3S,1,0,Pre Auth, F ,$0.0550,null, null , null , $-   , >= , $-   
+55,JEANIE PREFERRED,Supermarket,"5411,5300",null,null,0,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+55,JEANIE PREFERRED,Supermarket,"5411,5300",null,null,0,null,null,null,null,1S,null,0,Switch, F ,$0.0500,null, null , null , $-   , >= , $-   
+55,JEANIE PREFERRED,Supermarket,"5411,5300",null,null,0,null,null,null,null,2S,null,0,Switch, F ,$0.0500,null, null , null , $-   , >= , $-   
+55,JEANIE PREFERRED,Supermarket,"5411,5300",null,null,0,null,null,null,null,3S,null,0,Switch, F ,$0.0550,null, null , null , $-   , >= , $-   
+55,JEANIE PREFERRED,Supermarket,"5411,5300",null,null,0,null,null,null,null,1S,1,0,Pre Auth, F ,$0.0500,null, null , null , $-   , >= , $-   
+55,JEANIE PREFERRED,Supermarket,"5411,5300",null,null,0,null,null,null,null,2S,1,0,Pre Auth, F ,$0.0500,null, null , null , $-   , >= , $-   
+55,JEANIE PREFERRED,Supermarket,"5411,5300",null,null,0,null,null,null,null,3S,1,0,Pre Auth, F ,$0.0550,null, null , null , $-   , >= , $-   
+55,JEANIE PREFERRED,QSR,5814,null,null,0,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+55,JEANIE PREFERRED,QSR,5814,null,null,0,null,null,null,null,null,null,0,Switch, F ,$0.0400,null, null , null , $-   , >= , $-   
+55,JEANIE PREFERRED,QSR,5814,null,null,0,null,null,null,null,null,1,0,Pre Auth, F ,$0.0400,null, null , null , $-   , >= , $-   
+55,JEANIE PREFERRED,Petroleum,"5541,5542",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.1000,0.80%, $0.1000 , $0.9500 , $-   , >= , $-   
+55,JEANIE PREFERRED,Petroleum,"5541,5542",null,null,0,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+55,JEANIE PREFERRED,Petroleum,"5541,5542",null,null,0,null,null,null,null,null,null,0,Switch, F ,$0.0550,null, null , null , $-   , >= , $-   
+55,JEANIE PREFERRED,Petroleum,"5541,5542",null,null,0,null,null,null,null,null,1,0,Pre Auth, F ,$0.0550,null, null , null , $-   , >= , $-   
+30,MAESTRO,Supermarket / Warehouse,"5411,5300",null,null,null,null,0,null,null,1I,null,0,Interchange, F ,$0.1800,null, null , null , $-   , >= , $-   
+30,MAESTRO,Supermarket / Warehouse,"5411,5300",null,null,null,null,0,null,null,2I,null,0,Interchange, F ,$0.2300,null, null , null , $-   , >= , $-   
+30,MAESTRO,Supermarket / Warehouse,"5411,5300",null,null,null,null,0,null,null,3I,null,0,Interchange, V ,$0.1500,1.05%, $0.1500 , $0.3500 , $-   , >= , $-   
+30,MAESTRO,Convenience,"5499,5541,5542,5814,7832",null,null,null,null,0,null,null,null,null,0,Interchange, V ,$0.1700,0.75%, $0.1700 , $0.9500 , $-   , >= , $-   
+30,MAESTRO,All Other,*,null,null,null,null,0,null,null,1I,null,0,Interchange, V ,$0.0800,0.50%, $0.0800 , $0.5000 , $-   , >= , $-   
+30,MAESTRO,All Other,*,null,null,null,null,0,null,null,2I,null,0,Interchange, V ,$0.1200,0.60%, $0.1200 , $0.6500 , $-   , >= , $-   
+30,MAESTRO,All Other,*,null,null,null,null,0,null,null,3I,null,0,Interchange, V ,$0.1500,0.90%, $0.1500 ," $100,000.0000 ", $-   , >= , $-   
+30,MAESTRO,All,null,null,null,null,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+30,MAESTRO,All,null,null,null,null,null,null,null,null,null,0,0,Switch, F ,$0.0250,null, null , null , $-   , >= , $-   
+30,MAESTRO,All,null,null,null,null,null,null,null,null,null,1,0,Pre Auth, F ,$0.0250,null, null , null , $-   , >= , $-   
+30,MAESTRO,All,null,null,null,null,null,null,null,null,null,1,0,Switch Completion, F ,$0.0200,null, null , null , $-   , >= , $-   
+33,NETS,Supermarket,"5411,5300",null,null,0,null,0,null,null,null,null,0,Interchange, F ,$0.2500,null, null , null , $-   , >= , $-   
+33,NETS,Petroleum,"5541,5542",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.1100,0.80%, $0.1100 , $0.9500 , $-   , >= , $-   
+33,NETS,QSR,5814,null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.0500,1.00%, $0.0500 , $0.2000 , $-   , >= , $-   
+33,NETS,Standard Retail,*,null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.1300,0.85%, $0.1300 ," $100,000.0000 ", $-   , >= , $-   
+33,NETS,All,null,null,null,0,null,0,null,null,null,null,0,Switch, F ,$0.0400,null, null , null , $-   , >= , $-   
+33,NETS,All,null,null,null,0,null,0,null,null,null,1,0,Pre Auth, F ,$0.0100,null, null , null , $-   , >= , $-   
+33,NETS,All,null,null,null,0,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+33,NETS,All,null,null,null,0,null,1,null,null,null,null,0,Switch, F ,$0.0200,null, null , null , $-   , >= , $-   
+33,NETS,All,null,null,null,0,null,1,null,null,null,1,0,Pre Auth, F ,$0.0100,null, null , null , $-   , >= , $-   
+33,NETS,All Bid,null,null,null,0,null,1,null,null,null,null,1,Bid, F ,-$0.0170,null, null , null , $-   , >= , $-   
+34,NYCE,Supermarket,"5411,5300",null,null,null,null,0,null,null,0I,null,0,Interchange, F ,$0.1700,null, null , null , $-   , >= , $-   
+34,NYCE,Supermarket,"5411,5300",null,null,null,null,0,null,null,1I,null,0,Interchange, F ,$0.1700,null, null , null , $-   , >= , $-   
+34,NYCE,Supermarket,"5411,5300",null,null,null,null,0,null,null,2I,null,0,Interchange, F ,$0.2100,null, null , null , $-   , >= , $-   
+34,NYCE,Supermarket,"5411,5300",null,null,null,null,0,null,null,3I,null,0,Interchange, F ,$0.2400,null, null , null , $-   , >= , $-   
+34,NYCE,Supermarket,"5411,5300",null,null,null,null,1,null,null,null,null,0,Interchange, V ,$0.0250,1.00%, $0.0250 ," $100,000.0000 ", $-   , < , $15.0000 
+34,NYCE,Supermarket,"5411,5300",null,null,null,null,1,null,null,0I,null,0,Interchange, V ,$0.1900,0.00%, $0.1900 ," $100,000.0000 ", $0.0100 , >= , $15.0000 
+34,NYCE,Supermarket,"5411,5300",null,null,null,null,1,null,null,1I,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $15.0000 
+34,NYCE,Supermarket,"5411,5300",null,null,null,null,1,null,null,2I,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $15.0000 
+34,NYCE,Supermarket,"5411,5300",null,null,null,null,1,null,null,3I,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $15.0000 
+34,NYCE,QSR,5814,null,null,null,null,0,null,null,null,null,0,Interchange, V ,$0.0300,1.30%, $0.0300 ," $100,000.0000 ", $-   , >= , $-   
+34,NYCE,Petroleum,5541,null,null,null,null,0,null,null,0I,null,0,Interchange, V ,$0.0300,1.30%, $0.0300 ," $100,000.0000 ", $-   , < , $15.0000 
+34,NYCE,Petroleum,5541,null,null,null,null,0,null,null,0I,null,0,Interchange, V ,$0.1000,0.70%, $0.1000 , $0.8000 , $-   , >= , $15.0000 
+34,NYCE,Petroleum,5541,null,null,null,null,0,null,null,1I,null,0,Interchange, V ,$0.0300,1.30%, $0.0300 ," $100,000.0000 ", $-   , < , $15.0000 
+34,NYCE,Petroleum,5541,null,null,null,null,0,null,null,1I,null,0,Interchange, V ,$0.1000,0.70%, $0.1000 , $0.8000 , $-   , >= , $15.0000 
+34,NYCE,Petroleum,5541,null,null,null,null,0,null,null,2I,null,0,Interchange, V ,$0.0300,1.30%, $0.0300 ," $100,000.0000 ", $-   , < , $15.0000 
+34,NYCE,Petroleum,5541,null,null,null,null,0,null,null,2I,null,0,Interchange, V ,$0.1200,0.70%, $0.1200 , $0.8500 , $-   , >= , $15.0000 
+34,NYCE,Petroleum,5541,null,null,null,null,0,null,null,3I,null,0,Interchange, V ,$0.1200,0.70%, $0.1200 , $0.8500 , $-   , >= , $-   
+34,NYCE,Petroleum,5542,null,null,null,null,0,null,null,0I,null,0,Interchange, V ,$0.1000,0.70%, $0.1000 , $0.8000 , $-   , >= , $-   
+34,NYCE,Petroleum,5542,null,null,null,null,0,null,null,1I,null,0,Interchange, V ,$0.1000,0.70%, $0.1000 , $0.8000 , $-   , >= , $-   
+34,NYCE,Petroleum,5542,null,null,null,null,0,null,null,2I,null,0,Interchange, V ,$0.1200,0.70%, $0.1200 , $0.8500 , $-   , >= , $-   
+34,NYCE,Petroleum,5542,null,null,null,null,0,null,null,3I,null,0,Interchange, V ,$0.1200,0.70%, $0.1200 , $0.8500 , $-   , >= , $-   
+34,NYCE,All Other,*,null,null,null,null,0,null,null,0I,null,0,Interchange, V ,$0.0300,1.30%, $0.0300 ," $100,000.0000 ", $-   , < , $15.0000 
+34,NYCE,All Other,*,null,null,null,null,0,null,null,0I,null,0,Interchange, V ,$0.0600,0.55%, $0.0600 , $0.4900 , $-   , >= , $15.0000 
+34,NYCE,All Other,*,null,null,null,null,0,null,null,1I,null,0,Interchange, V ,$0.0300,1.30%, $0.0300 ," $100,000.0000 ", $-   , < , $15.0000 
+34,NYCE,All Other,*,null,null,null,null,0,null,null,1I,null,0,Interchange, V ,$0.0600,0.55%, $0.0600 , $0.5000 , $-   , >= , $15.0000 
+34,NYCE,All Other,*,null,null,null,null,0,null,null,2I,null,0,Interchange, V ,$0.0300,1.30%, $0.0300 ," $100,000.0000 ", $-   , < , $15.0000 
+34,NYCE,All Other,*,null,null,null,null,0,null,null,2I,null,0,Interchange, V ,$0.1000,0.70%, $0.1000 , $0.7500 , $-   , >= , $15.0000 
+34,NYCE,All Other,*,null,null,null,null,0,null,null,3I,null,0,Interchange, V ,$0.1200,0.75%, $0.1200 ," $100,000.0000 ", $-   , >= , $-   
+34,NYCE,All Other,*,null,null,null,null,1,null,null,null,null,0,Interchange, V ,$0.0250,1.00%, $0.0250 ," $100,000.0000 ", $-   , < , $15.0000 
+34,NYCE,All Other,*,null,null,null,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $15.0000 
+34,NYCE,Petroleum,"5541,5542",null,null,null,null,1,null,null,null,null,0,Interchange, V ,$0.0250,1.00%, $0.0250 ," $100,000.0000 ", $-   , < , $15.0000 
+34,NYCE,Petroleum,"5541,5542",null,null,null,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $15.0000 
+34,NYCE,QSR,5814,null,null,null,null,1,null,null,null,null,0,Interchange, V ,$0.0250,1.00%, $0.0250 ," $100,000.0000 ", $-   , < , $15.0000 
+34,NYCE,QSR,5814,null,null,null,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $15.0000 
+34,NYCE,All Switch  5M+,null,null,null,0,null,null,null,null,1S,0,0,Switch, F ,$0.0275,null, null , null , $-   , >= , $-   
+34,NYCE,All Switch 2.5M+,null,null,null,0,null,null,null,null,2S,0,0,Switch, F ,$0.0325,null, null , null , $-   , >= , $-   
+34,NYCE,All Switch 1M+,null,null,null,0,null,null,null,null,3S,0,0,Switch, F ,$0.0375,null, null , null , $-   , >= , $-   
+34,NYCE,All Switch 500K+,null,null,null,0,null,null,null,null,4S,0,0,Switch, F ,$0.0400,null, null , null , $-   , >= , $-   
+34,NYCE,All Switch 0K+,null,null,null,0,null,null,null,null,5S,0,0,Switch, F ,$0.0425,null, null , null , $-   , >= , $-   
+34,NYCE,All Switch  5M+,null,null,null,0,null,null,null,null,1S,1,0,Pre Auth, F ,$0.0275,null, null , null , $-   , >= , $-   
+34,NYCE,All Switch 2.5M+,null,null,null,0,null,null,null,null,2S,1,0,Pre Auth, F ,$0.0325,null, null , null , $-   , >= , $-   
+34,NYCE,All Switch 1M+,null,null,null,0,null,null,null,null,3S,1,0,Pre Auth, F ,$0.0375,null, null , null , $-   , >= , $-   
+34,NYCE,All Switch 500K+,null,null,null,0,null,null,null,null,4S,1,0,Pre Auth, F ,$0.0400,null, null , null , $-   , >= , $-   
+34,NYCE,All Switch 0K+,null,null,null,0,null,null,null,null,5S,1,0,Pre Auth, F ,$0.0425,null, null , null , $-   , >= , $-   
+34,NYCE,Switch Completion,null,null,null,0,null,null,null,null,null,1,0,Switch Completion, F ,$0.0200,null, null , null , $-   , >= , $-   
+34,NYCE,Switch Pinless,null,null,null,1,null,null,null,null,null,null,0,Switch, V ,$0.0168,0.10%,$0.0168," $100,000.0000 ", $-   , >= , $-   
+34,NYCE,All,null,null,null,null,null,null,null,null,null,null,0,Infrastructure, F ,$0.0050,null, null , null , $-   , >= , $-   
+34,NYCE,All,null,null,null,null,null,null,null,null,null,1,0,Infrastructure, F ,$0.0050,null, null , null , $-   , >= , $-   
+34,NYCE,All Bid,null,null,null,null,null,null,null,null,null,null,1,Bid, F ,-$0.0170,null, null , null , $-   , >= , $-   
+50,NYCE PREMIER,Supermarket,"5411,5300",null,null,null,null,0,null,null,0I,null,0,Interchange, F ,$0.1800,null, null , null , $-   , >= , $-   
+50,NYCE PREMIER,Supermarket,"5411,5300",null,null,null,null,0,null,null,1I,null,0,Interchange, F ,$0.2400,null, null , null , $-   , >= , $-   
+50,NYCE PREMIER,Supermarket,"5411,5300",null,null,null,null,0,null,null,2I,null,0,Interchange, F ,$0.2700,null, null , null , $-   , >= , $-   
+50,NYCE PREMIER,Supermarket,"5411,5300",null,null,null,null,0,null,null,3I,null,0,Interchange, F ,$0.2900,null, null , null , $-   , >= , $-   
+50,NYCE PREMIER,QSR,5814,null,null,null,null,0,null,null,null,null,0,Interchange, V ,$0.0300,1.30%, $0.0300 ," $100,000.0000 ", $-   , >= , $-   
+50,NYCE PREMIER,Petroleum,5541,null,null,null,null,0,null,null,0I,null,0,Interchange, V ,$0.0300,1.30%, $0.0300 ," $100,000.0000 ", $-   , < , $15.0000 
+50,NYCE PREMIER,Petroleum,5541,null,null,null,null,0,null,null,0I,null,0,Interchange, V ,$0.1500,0.70%, $0.1500 , $0.8500 , $-   , >= , $15.0000 
+50,NYCE PREMIER,Petroleum,5541,null,null,null,null,0,null,null,1I,null,0,Interchange, V ,$0.0300,1.30%, $0.0300 ," $100,000.0000 ", $-   , < , $15.0000 
+50,NYCE PREMIER,Petroleum,5541,null,null,null,null,0,null,null,1I,null,0,Interchange, V ,$0.1500,0.70%, $0.1500 , $0.8500 , $-   , >= , $15.0000 
+50,NYCE PREMIER,Petroleum,5541,null,null,null,null,0,null,null,2I,null,0,Interchange, V ,$0.0300,1.30%, $0.0300 ," $100,000.0000 ", $-   , < , $15.0000 
+50,NYCE PREMIER,Petroleum,5541,null,null,null,null,0,null,null,2I,null,0,Interchange, V ,$0.1500,0.75%, $0.1500 , $0.9000 , $-   , >= , $15.0000 
+50,NYCE PREMIER,Petroleum,5541,null,null,null,null,0,null,null,3I,null,0,Interchange, V ,$0.1500,0.75%, $0.1500 , $0.9000 , $-   , >= , $-   
+50,NYCE PREMIER,Petroleum,5542,null,null,null,null,0,null,null,0I,null,0,Interchange, V ,$0.1500,0.70%, $0.1500 , $0.8500 , $-   , >= , $-   
+50,NYCE PREMIER,Petroleum,5542,null,null,null,null,0,null,null,1I,null,0,Interchange, V ,$0.1500,0.70%, $0.1500 , $0.8500 , $-   , >= , $-   
+50,NYCE PREMIER,Petroleum,5542,null,null,null,null,0,null,null,2I,null,0,Interchange, V ,$0.1500,0.75%, $0.1500 , $0.9000 , $-   , >= , $-   
+50,NYCE PREMIER,Petroleum,5542,null,null,null,null,0,null,null,3I,null,0,Interchange, V ,$0.1500,0.75%, $0.1500 , $0.9000 , $-   , >= , $-   
+50,NYCE PREMIER,All Other,*,null,null,null,null,0,null,null,0I,null,0,Interchange, V ,$0.0300,1.30%, $0.0300 ," $100,000.0000 ", $-   , < , $15.0000 
+50,NYCE PREMIER,All Other,*,null,null,null,null,0,null,null,0I,null,0,Interchange, V ,$0.1200,0.55%, $0.1200 , $0.5500 , $-   , >= , $15.0000 
+50,NYCE PREMIER,All Other,*,null,null,null,null,0,null,null,1I,null,0,Interchange, V ,$0.0300,1.30%, $0.0300 ," $100,000.0000 ", $-   , < , $15.0000 
+50,NYCE PREMIER,All Other,*,null,null,null,null,0,null,null,1I,null,0,Interchange, V ,$0.1200,0.65%, $0.1200 , $0.6500 , $-   , >= , $15.0000 
+50,NYCE PREMIER,All Other,*,null,null,null,null,0,null,null,2I,null,0,Interchange, V ,$0.0300,1.30%, $0.0300 ," $100,000.0000 ", $-   , < , $15.0000 
+50,NYCE PREMIER,All Other,*,null,null,null,null,0,null,null,2I,null,0,Interchange, V ,$0.1200,0.75%, $0.1200 , $0.9000 , $-   , >= , $15.0000 
+50,NYCE PREMIER,All Other,*,null,null,null,null,0,null,null,3I,null,0,Interchange, V ,$0.1300,0.80%, $0.1300 ," $100,000.0000 ", $-   , >= , $-   
+50,NYCE PREMIER,All Premier Regulated,null,null,null,null,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+50,NYCE PREMIER,All Switch  5M+,null,null,null,null,null,null,null,null,1S,0,0,Switch, F ,$0.0275,null, null , null , $-   , >= , $-   
+50,NYCE PREMIER,All Switch 2.5M+,null,null,null,0,null,null,null,null,2S,0,0,Switch, F ,$0.0325,null, null , null , $-   , >= , $-   
+50,NYCE PREMIER,All Switch 1M+,null,null,null,0,null,null,null,null,3S,0,0,Switch, F ,$0.0375,null, null , null , $-   , >= , $-   
+50,NYCE PREMIER,All Switch 500K+,null,null,null,0,null,null,null,null,4S,0,0,Switch, F ,$0.0400,null, null , null , $-   , >= , $-   
+50,NYCE PREMIER,All Switch 0K+,null,null,null,0,null,null,null,null,5S,0,0,Switch, F ,$0.0425,null, null , null , $-   , >= , $-   
+50,NYCE PREMIER,All Switch  5M+,null,null,null,0,null,null,null,null,1S,1,0,Pre Auth, F ,$0.0275,null, null , null , $-   , >= , $-   
+50,NYCE PREMIER,All Switch 2.5M+,null,null,null,0,null,null,null,null,2S,1,0,Pre Auth, F ,$0.0325,null, null , null , $-   , >= , $-   
+50,NYCE PREMIER,All Switch 1M+,null,null,null,0,null,null,null,null,3S,1,0,Pre Auth, F ,$0.0375,null, null , null , $-   , >= , $-   
+50,NYCE PREMIER,All Switch 500K+,null,null,null,0,null,null,null,null,4S,1,0,Pre Auth, F ,$0.0400,null, null , null , $-   , >= , $-   
+50,NYCE PREMIER,All Switch 0K+,null,null,null,0,null,null,null,null,5S,1,0,Pre Auth, F ,$0.0425,null, null , null , $-   , >= , $-   
+50,NYCE PREMIER,Switch Completion,null,null,null,0,null,null,null,null,null,1,0,Switch Completion, F ,$0.0200,null, null , null , $-   , >= , $-   
+50,NYCE PREMIER,Switch Pinless,null,null,null,1,null,null,null,null,null,null,0,Switch, V ,$0.0168,0.10%,$0.0168," $100,000.0000 ", $-   , >= , $-   
+50,NYCE PREMIER,All,null,null,null,null,null,null,null,null,null,null,0,Infrastructure, F ,$0.0050,null, null , null , $-   , >= , $-   
+50,NYCE PREMIER,All,null,null,null,null,null,null,null,null,null,1,0,Infrastructure, F ,$0.0050,null, null , null , $-   , >= , $-   
+50,NYCE PREMIER,All Bid,null,null,null,null,null,null,null,null,null,null,1,Bid, F ,-$0.0170,null, null , null , $-   , >= , $-   
+36,PULSE,Grocery,5411,null,null,0,null,0,null,null,null,null,0,Interchange, F ,$0.3000,null, null , null , $-   , >= , $-   
+36,PULSE,Petroleum,"5541,5542",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.1500,0.80%, $0.1500 , $0.9500 , $-   , >= , $-   
+36,PULSE,General Retail,*,null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.1500,0.80%, $0.1500 ," $100,000.0000 ", $-   , >= , $-   
+36,PULSE,Small Ticket,"3581,4111,4121,4131,4784,5814,5994,7211,7216,7334,7523,7542,7832,7841",null,null,0,1,0,null,null,null,null,0,Interchange, V ,$0.0400,1.55%, $0.0400 ," $100,000.0000 ", $-   , >= , $-   
+36,PULSE,Small Ticket,"3581,4111,4121,4131,4784,5814,5994,7211,7216,7334,7523,7542,7832,7841",null,null,0,0,0,null,null,null,null,0,Interchange, V ,$0.1500,0.80%, $0.1500 ," $100,000.0000 ", $-   , >= , $-   
+36,PULSE,All Regulated,null,null,null,null,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+36,PULSE,All,null,null,null,0,null,null,null,null,null,null,0,Network Security, F ,$0.0050,null, null , null , $-   , >= , $-   
+36,PULSE,All,null,null,null,0,0,null,null,null,null,null,0,Switch, V ,$0.0575,0.08%, $0.0575 , $0.0700 , $-   , >= , $-   
+36,PULSE,All,null,null,null,0,1,null,null,null,null,null,0,Switch, V ,$0.0175,0.08%, $0.0175 , $0.0300 , $-   , >= , $-   
+36,PULSE,Switch Pinless,null,null,null,1,null,null,null,null,null,null,0,Switch, V ,$0.0250,0.10%, $0.0250 ," $100,000.0000 ", $-   , >= , $-   
+36,PULSE,Network Security Pinless,null,null,null,1,null,null,null,null,null,null,0,Network Security, F ,$0.0050,null, null , null , $-   , >= , $-   
+36,PULSE,General Retail Pinless,*,null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.1500,0.80%, $0.1500 ," $100,000.0000 ", $-   , >= , $15.0100 
+36,PULSE,General Retail Pinless Small Ticket,*,null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.0400,1.55%, $0.0400 ," $100,000.0000 ", $-   , <= , $15.0000 
+36,PULSE,Grocery Pinless,5411,null,null,1,null,null,null,null,null,null,0,Interchange, F ,$0.3000,null, null , null , $-   , >= , $15.0100 
+36,PULSE,Grocery Pinless Small Ticket,5411,null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.0400,1.55%, $0.0400 ," $100,000.0000 ", $-   , <= , $15.0000 
+36,PULSE,Petroleum Pinless Outside,5541,null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.1500,0.80%, $0.1500 , $0.9500 , $-   , >= , $15.0100 
+36,PULSE,Petroleum Pinless Outside Small Ticket,5541,null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.0400,1.55%, $0.0400 ," $100,000.0000 ", $-   , <= , $15.0000 
+36,PULSE,Petroleum Pinless Inside,5542,null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.1500,0.80%, $0.1500 , $0.9500 , $-   , >= , $-   
+36,PULSE,Restaurant Pinless,"5812,5814",null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.1000,1.19%, $0.1000 ," $100,000.0000 ", $-   , >= , $15.0100 
+36,PULSE,Restaurant Pinless Small Ticket,"5812,5814",null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.0400,1.55%, $0.0400 ," $100,000.0000 ", $-   , <= , $15.0000 
+36,PULSE,Taxi/Limo Regular Ticket,4121,null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.1500,0.80%, $0.1500 ," $100,000.0000 ", $-   , >= , $25.0100 
+36,PULSE,Taxi/Limo Small Ticket,4121,null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.0400,1.55%, $0.0400 ," $100,000.0000 ", $-   , <= , $25.0000 
+36,PULSE,Exception Small Ticket Pinless,"4829,5960,5962,5964,5965,5966,5967,5968,5969,6010,6011,6012,7995",null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.1500,0.80%, $0.1500 ," $100,000.0000 ", $-   , >= , $-   
+36,PULSE,All,null,null,null,0,0,null,null,null,null,1,0,Pre Auth, F ,$0.0700,null, null , null , $-   , >= , $-   
+36,PULSE,All,null,null,null,0,1,null,null,null,null,1,0,Pre Auth, F ,$0.0300,null, null , null , $-   , >= , $-   
+36,PULSE,All Bid,null,null,null,0,null,null,null,null,null,null,1,Bid, F ,-$0.0220,null, null , null , $-   , >= , $-   
+51,PULSE PAY LIMITED,Grocery,5411,null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.1500,1.15%, $0.1500 , $0.3500 , $-   , >= , $-   
+51,PULSE PAY LIMITED,Petroleum,"5541,5542",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.1500,1.15%, $0.1500 , $0.9500 , $-   , >= , $-   
+51,PULSE PAY LIMITED,General Retail,*,null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.1500,1.15%, $0.1500 ," $100,000.0000 ", $-   , >= , $-   
+51,PULSE PAY LIMITED,Small Ticket,"3581,4111,4121,4131,4784,5814,5994,7211,7216,7334,7523,7542,7832,7841",null,null,0,1,0,null,null,null,null,0,Interchange, V ,$0.0500,1.60%, $0.0500 ," $100,000.0000 ", $-   , >= , $-   
+51,PULSE PAY LIMITED,Small Ticket,"3581,4111,4121,4131,4784,5814,5994,7211,7216,7334,7523,7542,7832,7841",null,null,0,0,0,null,null,null,null,0,Interchange, V ,$0.1500,1.15%, $0.1500 ," $100,000.0000 ", $-   , >= , $-   
+51,PULSE PAY LIMITED,All Regulated,null,null,null,null,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+51,PULSE PAY LIMITED,All,null,null,null,0,null,null,null,null,null,null,0,Network Security, F ,$0.0050,null, null , null , $-   , >= , $-   
+51,PULSE PAY LIMITED,All,null,null,null,0,0,null,null,null,null,null,0,Switch, V ,$0.0575,0.08%, $0.0575 , $0.0700 , $-   , >= , $-   
+51,PULSE PAY LIMITED,All,null,null,null,0,1,null,null,null,null,null,0,Switch, V ,$0.0175,0.08%, $0.0175 , $0.0300 , $-   , >= , $-   
+51,PULSE PAY LIMITED,Switch Pinless,null,null,null,1,null,null,null,null,null,null,0,Switch, V ,$0.0250,0.10%, $0.0250 ," $100,000.0000 ", $-   , >= , $-   
+51,PULSE PAY LIMITED,Network Security Pinless,null,null,null,1,null,null,null,null,null,null,0,Network Security, F ,$0.0050,null, null , null , $-   , >= , $-   
+51,PULSE PAY LIMITED,General Retail Pinless,*,null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.1500,0.80%, $0.1500 ," $100,000.0000 ", $-   , >= , $15.0100 
+51,PULSE PAY LIMITED,General Retail Pinless Small Ticket,*,null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.0400,1.55%, $0.0400 ," $100,000.0000 ", $-   , <= , $15.0000 
+51,PULSE PAY LIMITED,Grocery Pinless,5411,null,null,1,null,null,null,null,null,null,0,Interchange, F ,$0.3000,null, null , null , $-   , >= , $15.0100 
+51,PULSE PAY LIMITED,Grocery Pinless Small Ticket,5411,null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.0400,1.55%, $0.0400 ," $100,000.0000 ", $-   , <= , $15.0000 
+51,PULSE PAY LIMITED,Petroleum Pinless Outside,5541,null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.1500,0.80%, $0.1500 , $0.9500 , $-   , >= , $15.0100 
+51,PULSE PAY LIMITED,Petroleum Pinless Outside Small Ticket,5541,null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.0400,1.55%, $0.0400 ," $100,000.0000 ", $-   , <= , $15.0000 
+51,PULSE PAY LIMITED,Petroleum Pinless Inside,5542,null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.1500,0.80%, $0.1500 , $0.9500 , $-   , >= , $-   
+51,PULSE PAY LIMITED,Restaurant Pinless,"5812,5814",null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.1000,1.19%, $0.1000 ," $100,000.0000 ", $-   , >= , $15.0100 
+51,PULSE PAY LIMITED,Restaurant Pinless Small Ticket,"5812,5814",null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.0400,1.55%, $0.0400 ," $100,000.0000 ", $-   , <= , $15.0000 
+51,PULSE PAY LIMITED,Taxi/Limo Regular Ticket,4121,null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.1500,0.80%, $0.1500 ," $100,000.0000 ", $-   , >= , $25.0100 
+51,PULSE PAY LIMITED,Taxi/Limo Small Ticket,4121,null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.0400,1.55%, $0.0400 ," $100,000.0000 ", $-   , <= , $25.0000 
+51,PULSE PAY LIMITED,Exception Small Ticket Pinless,"4829,5960,5962,5964,5965,5966,5967,5968,5969,6010,6011,6012,7995",null,null,1,null,null,null,null,null,null,0,Interchange, V ,$0.1500,0.80%, $0.1500 ," $100,000.0000 ", $-   , >= , $-   
+51,PULSE PAY LIMITED,All,null,null,null,0,0,null,null,null,null,1,0,Pre Auth, F ,$0.0700,null, null , null , $-   , >= , $-   
+51,PULSE PAY LIMITED,All,null,null,null,0,1,null,null,null,null,1,0,Pre Auth, F ,$0.0300,null, null , null , $-   , >= , $-   
+51,PULSE PAY LIMITED,All Bid,null,null,null,0,null,null,null,null,null,null,1,Bid, F ,-$0.0220,null, null , null , $-   , >= , $-   
+38,SHAZAM,Grocery & Wholesale,"5411,5300",null,null,0,null,0,null,null,5I,null,0,Interchange, V ,$0.1600,0.90%, $0.1600 , $0.3500 , $-   , >= , $-   
+38,SHAZAM,Grocery & Wholesale,"5411,5300",null,null,0,null,0,null,null,4I,null,0,Interchange, F ,$0.2300,null, null , null , $-   , >= , $-   
+38,SHAZAM,Grocery & Wholesale,"5411,5300",null,null,0,null,0,null,null,3I,null,0,Interchange, F ,$0.2100,null, null , null , $-   , >= , $-   
+38,SHAZAM,Grocery & Wholesale,"5411,5300",null,null,0,null,0,null,null,2I,null,0,Interchange, F ,$0.1800,null, null , null , $-   , >= , $-   
+38,SHAZAM,Grocery & Wholesale,"5411,5300",null,null,0,null,0,null,null,1I,null,0,Interchange, F ,$0.1100,null, null , null , $-   , >= , $-   
+38,SHAZAM,QSR,5814,null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.0500,1.25%, $0.0500 ," $100,000.0000 ", $-   , >= , $-   
+38,SHAZAM,Small Ticket,"4111,7523,5994,7211,7338,7542,7832,7841,5499",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.0500,1.25%, $0.0500 ," $100,000.0000 ", $-   , >= , $-   
+38,SHAZAM,Petroleum,"5541,5542",null,null,0,null,0,null,null,5I,null,0,Interchange, V ,$0.1300,0.80%, $0.1300 ," $100,000.0000 ", $-   , >= , $-   
+38,SHAZAM,Petroleum,"5541,5542",null,null,0,null,0,null,null,4I,null,0,Interchange, V ,$0.1300,0.80%, $0.1300 ," $100,000.0000 ", $-   , >= , $-   
+38,SHAZAM,Petroleum,"5541,5542",null,null,0,null,0,null,null,3I,null,0,Interchange, V ,$0.1300,0.80%, $0.1300 ," $100,000.0000 ", $-   , >= , $-   
+38,SHAZAM,Petroleum,"5541,5542",null,null,0,null,0,null,null,2I,null,0,Interchange, V ,$0.0900,0.75%, $0.0900 ," $100,000.0000 ", $-   , >= , $-   
+38,SHAZAM,Petroleum,"5541,5542",null,null,0,null,0,null,null,1I,null,0,Interchange, V ,$0.0800,0.60%, $0.0800 ," $100,000.0000 ", $-   , >= , $-   
+38,SHAZAM,General Retail,*,null,null,0,null,0,null,null,5I,null,0,Interchange, V ,$0.1600,0.85%, $0.1600 ," $100,000.0000 ", $-   , >= , $-   
+38,SHAZAM,General Retail,*,null,null,0,null,0,null,null,4I,null,0,Interchange, V ,$0.1600,0.85%, $0.1600 ," $100,000.0000 ", $-   , >= , $-   
+38,SHAZAM,General Retail,*,null,null,0,null,0,null,null,3I,null,0,Interchange, V ,$0.1600,0.85%, $0.1600 ," $100,000.0000 ", $-   , >= , $-   
+38,SHAZAM,General Retail,*,null,null,0,null,0,null,null,2I,null,0,Interchange, V ,$0.1400,0.70%, $0.1400 ," $100,000.0000 ", $-   , >= , $-   
+38,SHAZAM,General Retail,*,null,null,0,null,0,null,null,1I,null,0,Interchange, V ,$0.0800,0.50%, $0.0800 ," $100,000.0000 ", $-   , >= , $-   
+38,SHAZAM,All Regulated,null,null,null,0,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+38,SHAZAM,All Switch,null,null,null,0,null,null,null,null,null,0,0,Switch, F ,$0.0600,null, null , null , $-   , >= , $-   
+38,SHAZAM,All Switch,null,null,null,0,null,null,null,null,null,1,0,Pre Auth, F ,$0.0600,null, null , null , $-   , >= , $-   
+41,STAR (ALL),Grocery & Wholesale,"5411,5300",null,null,0,null,0,null,null,3I,null,0,Interchange, V ,$0.2200,0.60%, $0.2200 , $0.3300 , $-   , >= , $-   
+41,STAR (ALL),Grocery & Wholesale,"5411,5300",null,null,0,null,0,null,null,2I,null,0,Interchange, F ,$0.2300,null, null , null , $-   , >= , $-   
+41,STAR (ALL),Grocery & Wholesale,"5411,5300",null,null,0,null,0,null,null,1I,null,0,Interchange, F ,$0.1850,null, null , null , $-   , >= , $-   
+41,STAR (ALL),Petroleum,"5541,5542",null,null,0,null,0,null,null,3I,null,0,Interchange, V ,$0.1700,0.85%, $0.1700 ," $100,000.0000 ", $-   , >= , $-   
+41,STAR (ALL),Petroleum,"5541,5542",null,null,0,null,0,null,null,2I,null,0,Interchange, V ,$0.1300,0.80%, $0.1300 ," $100,000.0000 ", $-   , >= , $-   
+41,STAR (ALL),Petroleum,"5541,5542",null,null,0,null,0,null,null,1I,null,0,Interchange, V ,$0.1300,0.80%, $0.1300 ," $100,000.0000 ", $-   , >= , $-   
+41,STAR (ALL),QSR,5814,null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.0800,1.15%, $0.0800 ," $100,000.0000 ", $-   , >= , $-   
+41,STAR (ALL),Small Ticket,"4111,7523,5994,7211,7338,7542,7832,7841,5499",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.1850,0.80%, $0.1850 ," $100,000.0000 ", $-   , >= , $10.0100 
+41,STAR (ALL),Small Ticket,"4111,7523,5994,7211,7338,7542,7832,7841,5499",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.1500,1.25%, $0.1500 ," $100,000.0000 ", $-   , < , $10.0100 
+41,STAR (ALL),Medical Merchant,"8011,8062,8099,5912",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.1850,0.80%, $0.1850 ," $100,000.0000 ", $-   , >= , $15.0100 
+41,STAR (ALL),Medical Merchant,"8011,8062,8099,5912",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.2000,1.20%, $0.2000 ," $100,000.0000 ", $-   , < , $15.0100 
+41,STAR (ALL),All Other Merchants,*,null,null,0,null,0,null,null,3I,null,0,Interchange, V ,$0.1950,0.90%, $0.1950 ," $100,000.0000 ", $-   , >= , $-   
+41,STAR (ALL),All Other Merchants,*,null,null,0,null,0,null,null,2I,null,0,Interchange, V ,$0.1500,0.60%, $0.1500 , $0.8000 , $-   , >= , $-   
+41,STAR (ALL),All Other Merchants,*,null,null,0,null,0,null,null,1I,null,0,Interchange, V ,$0.0800,0.55%, $0.0800 , $0.5500 , $-   , >= , $-   
+41,STAR (ALL),All Regulated,null,null,null,null,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+41,STAR (ALL),All Administrative,null,null,null,0,null,null,null,null,null,null,0,Administrative, F ,$0.0100,null, null , null , $-   , >= , $-   
+41,STAR (ALL),All Switch,null,null,null,0,null,null,null,null,3S,null,0,Switch, F ,$0.0325,null, null , null , $-   , >= , $-   
+41,STAR (ALL),All Switch,null,null,null,0,null,null,null,null,2S,null,0,Switch, F ,$0.0250,null, null , null , $-   , >= , $-   
+41,STAR (ALL),All Switch,null,null,null,0,null,null,null,null,1S,null,0,Switch, F ,$0.0200,null, null , null , $-   , >= , $-   
+41,STAR (ALL),All Switch,null,null,null,0,null,null,null,null,3S,1,0,Pre Auth, F ,$0.0325,null, null , null , $-   , >= , $-   
+41,STAR (ALL),All Switch,null,null,null,0,null,null,null,null,2S,1,0,Pre Auth, F ,$0.0250,null, null , null , $-   , >= , $-   
+41,STAR (ALL),All Switch,null,null,null,0,null,null,null,null,1S,1,0,Pre Auth, F ,$0.0200,null, null , null , $-   , >= , $-   
+41,STAR (ALL),All Switch PINLESS,null,null,null,1,null,null,null,null,null,null,0,Switch, V ,$0.0150,0.10%, $0.0150 ," $100,000.0000 ", $-   , >= , $-   
+41,STAR (ALL),PINLESS < 15,null,null,null,1,null,0,null,null,null,null,0,Interchange, V ,$0.0300,1.40%, $0.0300 ," $100,000.0000 ", $-   , <= , $15.0000 
+41,STAR (ALL),PINLESS > 15,"5411,5300",null,null,1,null,0,null,null,null,null,0,Interchange, F ,$0.2900,null, null , null , $-   , >= , $15.0100 
+41,STAR (ALL),PINLESS > 15,"5541,5542",null,null,1,null,0,null,null,null,null,0,Interchange, V ,$0.1550,0.73%, $0.1550 , $0.8500 , $-   , >= , $15.0100 
+41,STAR (ALL),PINLESS > 15,5814,null,null,1,null,0,null,null,null,null,0,Interchange, V ,$0.0300,1.40%, $0.0300 ," $100,000.0000 ", $-   , >= , $15.0100 
+41,STAR (ALL),PINLESS > 15,*,null,null,1,null,0,null,null,null,null,0,Interchange, V ,$0.1450,0.80%, $0.1450 ," $100,000.0000 ", $-   , >= , $15.0100 
+41,STAR (ALL),Non 5542 Bid,"5541,5411,5300,5814,4111,7523,5994,7211,7338,7542,7832,7841,5499,8011,8062,8099,5912,*",null,null,0,null,1,null,null,null,null,1,Bid, F ,-$0.0300,null, null , null , $-   , >= , $-   
+41,STAR (ALL),Non 5542 Bid,"5541,5542,5411,5300,5814,4111,7523,5994,7211,7338,7542,7832,7841,5499,8011,8062,8099,5912,*",null,null,0,null,0,null,null,null,null,1,Bid, F ,-$0.0500,null, null , null , $-   , >= , $-   
+41,STAR (ALL),5542 Bid,5542,null,null,0,null,1,null,null,null,null,1,Bid, F ,-$0.0625,null, null , null , $-   , >= , $-   
+53,STAR PREFERRED (ALL),Grocery & Wholesale,"5411,5300",null,null,0,null,0,null,null,3I,null,0,Interchange, V ,$0.2500,0.60%, $0.2500 , $0.4000 , $-   , >= , $-   
+53,STAR PREFERRED (ALL),Grocery & Wholesale,"5411,5300",null,null,0,null,0,null,null,2I,null,0,Interchange, F ,$0.2600,null, null , null , $-   , >= , $-   
+53,STAR PREFERRED (ALL),Grocery & Wholesale,"5411,5300",null,null,0,null,0,null,null,1I,null,0,Interchange, F ,$0.2100,null, null , null , $-   , >= , $-   
+53,STAR PREFERRED (ALL),Petroleum,"5541,5542",null,null,0,null,0,null,null,3I,null,0,Interchange, V ,$0.2050,0.85%, $0.2050 ," $100,000.0000 ", $-   , >= , $-   
+53,STAR PREFERRED (ALL),Petroleum,"5541,5542",null,null,0,null,0,null,null,2I,null,0,Interchange, V ,$0.1600,0.80%, $0.1600 ," $100,000.0000 ", $-   , >= , $-   
+53,STAR PREFERRED (ALL),Petroleum,"5541,5542",null,null,0,null,0,null,null,1I,null,0,Interchange, V ,$0.1550,0.80%, $0.1550 ," $100,000.0000 ", $-   , >= , $-   
+53,STAR PREFERRED (ALL),QSR,5814,null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.1050,1.15%, $0.1050 ," $100,000.0000 ", $-   , >= , $-   
+53,STAR PREFERRED (ALL),Small Ticket,"4111,7523,5994,7211,7338,7542,7832,7841,5499",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.2600,0.80%, $0.2600 ," $100,000.0000 ", $-   , >= , $10.0100 
+53,STAR PREFERRED (ALL),Small Ticket,"4111,7523,5994,7211,7338,7542,7832,7841,5499",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.2250,1.25%, $0.2250 ," $100,000.0000 ", $-   , < , $10.0100 
+53,STAR PREFERRED (ALL),Medical Merchant,"8011,8062,8099,5912",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.2600,0.80%, $0.2600 ," $100,000.0000 ", $-   , >= , $15.0100 
+53,STAR PREFERRED (ALL),Medical Merchant,"8011,8062,8099,5912",null,null,0,null,0,null,null,null,null,0,Interchange, V ,$0.2750,1.20%, $0.2750 ," $100,000.0000 ", $-   , < , $15.0100 
+53,STAR PREFERRED (ALL),All Other Merchants,*,null,null,0,null,0,null,null,3I,null,0,Interchange, V ,$0.2500,0.90%, $0.2500 ," $100,000.0000 ", $-   , >= , $-   
+53,STAR PREFERRED (ALL),All Other Merchants,*,null,null,0,null,0,null,null,2I,null,0,Interchange, V ,$0.1800,0.60%, $0.1800 , $0.8300 , $-   , >= , $-   
+53,STAR PREFERRED (ALL),All Other Merchants,*,null,null,0,null,0,null,null,1I,null,0,Interchange, V ,$0.1050,0.55%, $0.1050 , $0.5750 , $-   , >= , $-   
+53,STAR PREFERRED (ALL),All Regulated,null,null,null,null,null,1,null,null,null,null,0,Interchange, V ,$0.2100,0.05%, $0.2100 ," $100,000.0000 ", $0.0100 , >= , $-   
+53,STAR PREFERRED (ALL),All Administrative,null,null,null,0,null,null,null,null,null,null,0,Administrative, F ,$0.0100,null, null , null , $-   , >= , $-   
+53,STAR PREFERRED (ALL),All Switch,null,null,null,0,null,null,null,null,3S,null,0,Switch, F ,$0.0325,null, null , null , $-   , >= , $-   
+53,STAR PREFERRED (ALL),All Switch,null,null,null,0,null,null,null,null,2S,null,0,Switch, F ,$0.0250,null, null , null , $-   , >= , $-   
+53,STAR PREFERRED (ALL),All Switch,null,null,null,0,null,null,null,null,1S,null,0,Switch, F ,$0.0200,null, null , null , $-   , >= , $-   
+53,STAR PREFERRED (ALL),All Switch,null,null,null,0,null,null,null,null,3S,1,0,Pre Auth, F ,$0.0325,null, null , null , $-   , >= , $-   
+53,STAR PREFERRED (ALL),All Switch,null,null,null,0,null,null,null,null,2S,1,0,Pre Auth, F ,$0.0250,null, null , null , $-   , >= , $-   
+53,STAR PREFERRED (ALL),All Switch,null,null,null,0,null,null,null,null,1S,1,0,Pre Auth, F ,$0.0200,null, null , null , $-   , >= , $-   
+53,STAR PREFERRED (ALL),All Switch PINLESS,null,null,null,1,null,null,null,null,null,null,0,Switch, V ,$0.0150,0.10%, $0.0150 ," $100,000.0000 ", $-   , >= , $-   
+53,STAR PREFERRED (ALL),PINLESS < 15,null,null,null,1,null,0,null,null,null,null,0,Interchange, V ,$0.0300,1.40%, $0.0300 ," $100,000.0000 ", $-   , <= , $15.0000 
+53,STAR PREFERRED (ALL),PINLESS > 15,"5411,5300",null,null,1,null,0,null,null,null,null,0,Interchange, F ,$0.2900,null, null , null , $-   , >= , $15.0100 
+53,STAR PREFERRED (ALL),PINLESS > 15,"5541,5542",null,null,1,null,0,null,null,null,null,0,Interchange, V ,$0.1550,0.73%, $0.1550 , $0.8500 , $-   , >= , $15.0100 
+53,STAR PREFERRED (ALL),PINLESS > 15,5814,null,null,1,null,0,null,null,null,null,0,Interchange, V ,$0.0300,1.40%, $0.0300 ," $100,000.0000 ", $-   , >= , $15.0100 
+53,STAR PREFERRED (ALL),PINLESS > 15,*,null,null,1,null,0,null,null,null,null,0,Interchange, V ,$0.1450,0.80%, $0.1450 ," $100,000.0000 ", $-   , >= , $15.0100 
+53,STAR PREFERRED (ALL),Non 5542 Bid,"5541,5411,5300,5814,4111,7523,5994,7211,7338,7542,7832,7841,5499,8011,8062,8099,5912,*",null,null,0,null,1,null,null,null,null,1,Bid, F ,-$0.0300,null, null , null , $-   , >= , $-   
+53,STAR PREFERRED (ALL),Non 5542 Bid,"5541,5542,5411,5300,5814,4111,7523,5994,7211,7338,7542,7832,7841,5499,8011,8062,8099,5912,*",null,null,0,null,0,null,null,null,null,1,Bid, F ,-$0.0500,null, null , null , $-   , >= , $-   
+53,STAR PREFERRED (ALL),5542 Bid,5542,null,null,0,null,1,null,null,null,null,1,Bid, F ,-$0.0625,null, null , null , $-   , >= , $-   
+60,Visa,All,null,null,null,1,null,null,null,null,null,null,1,Interchange, F ,$100.0000,null, null , null , $-   , >= , $-   
+61,MasterCard,All,null,null,null,1,null,null,null,null,null,null,1,Interchange, F ,$100.0000,null, null , null , $-   , >= , $-   

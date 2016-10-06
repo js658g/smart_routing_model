@@ -1,0 +1,26 @@
+info: {name: "Client Name", comments: "grocery - base tiers - unregistered pulse", annual_multiplier: 12.0, annual_multiplier_unit: "months", sr_per_trans_fee: 0.0030, original_network_provided: 1}
+network_billing_priority: [] #must have a space after the comma if you enter multiple networks. Example: [36, 34] and NOT [36,34]
+network_routing_priority:
+network_exclusion: [] #must have a space after the comma if you enter multiple networks. Example: [36, 34] and NOT [36,34]
+details:
+  2: { interchange: "4", switch: "null", registered: "null", interchange_name: "4 - Tier 4", switch_name: "null - N/A", registered_name: "null - N/A" }
+  5: { interchange: "null", switch: "null", registered: "null", interchange_name: "null - N/A", switch_name: "null - N/A", registered_name: "null - N/A" }
+  7: { interchange: "null", switch: "null", registered: "null", interchange_name: "null - N/A", switch_name: "null - N/A", registered_name: "null - N/A" }
+  16: { interchange: "2", switch: "null", registered: "null", interchange_name: "2 - Standard", switch_name: "null - N/A", registered_name: "null - N/A" }
+  25: { interchange: "null", switch: "null", registered: "null", interchange_name: "null - N/A", switch_name: "null - N/A", registered_name: "null - N/A" }
+  20: { interchange: "null", switch: "null", registered: "null", interchange_name: "null - N/A", switch_name: "null - N/A", registered_name: "null - N/A" }
+  56: { interchange: "null", switch: "null", registered: "null", interchange_name: "null - N/A", switch_name: "null - N/A", registered_name: "null - N/A" }
+  58: { interchange: "null", switch: "null", registered: "null", interchange_name: "null - N/A", switch_name: "null - N/A", registered_name: "null - N/A" }
+  27: { interchange: "3", switch: "3", registered: "null", interchange_name: "3 - Tier 3", switch_name: "3 - Tier 3", registered_name: "null - N/A" }
+  30: { interchange: "3", switch: "null", registered: "null", interchange_name: "3 - Base", switch_name: "null - N/A", registered_name: "null - N/A" }
+  33: { interchange: "null", switch: "null", registered: "null", interchange_name: "null - N/A", switch_name: "null - N/A", registered_name: "null - N/A" }
+  34: { interchange: "3", switch: "5", registered: "null", interchange_name: "3 - Tier 3", switch_name: "5 - 1-500K", registered_name: "null - N/A" }
+  36: { interchange: "3", switch: "null", registered: "0", interchange_name: "3 - Tier 3", switch_name: "null - N/A", registered_name: "0 - FALSE" }
+  38: { interchange: "5", switch: "5", registered: "null", interchange_name: "5 - Tier 5", switch_name: "5 - 1-100K", registered_name: "null - N/A" }
+  41: { interchange: "3", switch: "3", registered: "null", interchange_name: "3 - Tier 3", switch_name: "3 - 1-5M", registered_name: "null - N/A" }
+  4: { interchange: "4", switch: "null", registered: "null", interchange_name: "4 - Tier 4", switch_name: "null - N/A", registered_name: "null - N/A" }
+  55: { interchange: "3", switch: "3", registered: "null", interchange_name: "3 - Tier 3", switch_name: "3 - Tier 3", registered_name: "null - N/A" }
+  50: { interchange: "3", switch: "5", registered: "null", interchange_name: "3 - Tier 3", switch_name: "5 - 1-500K", registered_name: "null - N/A" }
+  51: { interchange: "3", switch: "null", registered: "0", interchange_name: "3 - Tier 3", switch_name: "null - N/A", registered_name: "0 - FALSE" }
+  53: { interchange: "3", switch: "3", registered: "null", interchange_name: "3 - Tier 3", switch_name: "3 - 1-5M", registered_name: "null - N/A" }
+

@@ -1,0 +1,8 @@
+#PINLESS IND DESCRIPTION
+#A POS-Pinless 
+#B Pinned and Pinless
+#C Billpay-Pinless / POS-PinLess
+#D Pinned / POS-Pinless 
+#E Pinned/Billpay/POS-Pinless 
+#L Pinless only
+#P Pinned only

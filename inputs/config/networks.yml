@@ -1,0 +1,63 @@
+1: {real_name: 'ACCEL-FiServ', display_name: 'ACCEL FISERV', routable_id: 2, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+2: {real_name: 'ACCEL Direct', display_name: 'ACCEL', routable_id: 2, rateable_network: 1, premier: 0, premier_partner: 4, pin: 1, pinless: 1, sig: 0}
+3: {real_name: 'ACCEL Assurance', display_name: 'ACCEL ASSURANCE', routable_id: 3, rateable_network: 1, premier: 1, premier_partner: 3, pin: 1, pinless: 1, sig: 0}
+4: {real_name: 'ACCEL Advantage(1,2)', display_name: 'ACCEL ADVANTAGE', routable_id: 4, rateable_network: 1, premier: 1, premier_partner: 4, pin: 1, pinless: 1, sig: 0}
+5: {real_name: 'AFFN', display_name: 'AFFN', routable_id: 5, rateable_network: 1, premier: 0, premier_partner: 5, pin: 1, pinless: 0, sig: 0}
+6: {real_name: 'AFFN-FiServ', display_name: 'AFFN FISERV', routable_id: 5, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+7: {real_name: 'ALASKAOPTION - Direct', display_name: 'ALASKA OPTION', routable_id: 7, rateable_network: 1, premier: 0, premier_partner: 7, pin: 1, pinless: 0, sig: 0}
+8: {real_name: 'ALASKAOPTION-FiServ', display_name: 'ALASKA OPTION FISERV', routable_id: 7, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+9: {real_name: 'AlaskaOption-StarWest', display_name: 'ALASKA OPTION STAR WEST', routable_id: 7, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+10: {real_name: 'ATH(ATH - BancoPopular)', display_name: 'ATH', routable_id: 10, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+11: {real_name: 'ATS(ATH - ScotiaBank)', display_name: 'ATS', routable_id: 11, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+12: {real_name: 'TELECHECK DEBIT', display_name: 'TELECHECK DEBIT', routable_id: 12, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+13: {real_name: 'Pulse Pay Choice', display_name: 'PULSE PAY CHOICE', routable_id: 36, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+14: {real_name: 'CNSFSV(EBT)', display_name: 'EBT - CNSFSV', routable_id: 14, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+15: {real_name: 'Connect Pay', display_name: 'CONNECT PAY', routable_id: 15, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+16: {real_name: 'CU24', display_name: 'CU24', routable_id: 16, rateable_network: 1, premier: 0, premier_partner: 16, pin: 1, pinless: 0, sig: 0}
+17: {real_name: 'CU24-FiServ', display_name: 'CU24 FISERV', routable_id: 16, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+18: {real_name: 'EBT-FiServ', display_name: 'EBT - FISERV', routable_id: 18, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+19: {real_name: 'eFunds(EBT)', display_name: 'EBT - EFUNDS', routable_id: 19, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+20: {real_name: 'PAVD', display_name: 'PAVD', routable_id: 20, rateable_network: 1, premier: 0, premier_partner: 58, pin: 1, pinless: 0, sig: 0}
+21: {real_name: 'FiServ', display_name: 'FISERV', routable_id: 21, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+22: {real_name: 'GRUMMAN ILLINOIS (EBT)', display_name: 'EBT - GRUMMAN ILLINOIS', routable_id: 22, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+23: {real_name: 'HSBC', display_name: 'HSBC', routable_id: 23, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+24: {real_name: 'CU24-FIS', display_name: 'CU24', routable_id: 16, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+25: {real_name: 'InterLink', display_name: 'INTERLINK', routable_id: 25, rateable_network: 1, premier: 0, premier_partner: 56, pin: 1, pinless: 0, sig: 0}
+26: {real_name: 'INTERLINK-FiServ', display_name: 'INTERLINK FISERV', routable_id: 25, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+27: {real_name: 'Jeanie', display_name: 'JEANNIE', routable_id: 27, rateable_network: 1, premier: 0, premier_partner: 55, pin: 1, pinless: 0, sig: 0}
+28: {real_name: 'Jeanie-StarWest', display_name: 'JEANNIE STAR WEST', routable_id: 27, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+29: {real_name: 'LAC/Base24(Interac)', display_name: 'LAC BASE24 INTERAC', routable_id: 29, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+30: {real_name: 'MAESTRO - DIRECT', display_name: 'MAESTRO', routable_id: 30, rateable_network: 1, premier: 0, premier_partner: 30, pin: 1, pinless: 1, sig: 0}
+31: {real_name: 'MAESTRO-FiServ', display_name: 'MAESTRO FISERV', routable_id: 30, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+32: {real_name: 'Maestro-StarWest', display_name: 'MAESTRO STAR WEST', routable_id: 30, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+33: {real_name: 'NETS', display_name: 'NETS', routable_id: 33, rateable_network: 1, premier: 0, premier_partner: 33, pin: 1, pinless: 0, sig: 0}
+34: {real_name: 'NYCE', display_name: 'NYCE', routable_id: 34, rateable_network: 1, premier: 0, premier_partner: 50, pin: 1, pinless: 1, sig: 0}
+35: {real_name: 'NYCE-FiServ', display_name: 'NYCE FISERV', routable_id: 34, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+36: {real_name: 'Pulse', display_name: 'PULSE', routable_id: 36, rateable_network: 1, premier: 0, premier_partner: 51, pin: 1, pinless: 1, sig: 0}
+37: {real_name: 'PULSE-FiServ', display_name: 'PULSE FISERV', routable_id: 36, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+38: {real_name: 'Shazam', display_name: 'SHAZAM', routable_id: 38, rateable_network: 1, premier: 0, premier_partner: 38, pin: 1, pinless: 0, sig: 0}
+39: {real_name: 'StarEast', display_name: 'STAR EAST', routable_id: 41, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+40: {real_name: 'STAR-EAST-FiServ', display_name: 'STAR EAST FISERV', routable_id: 41, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+41: {real_name: 'StarNorthEast', display_name: 'STAR', routable_id: 41, rateable_network: 1, premier: 0, premier_partner: 53, pin: 1, pinless: 1, sig: 0}
+42: {real_name: 'STAR-NORTHEAST-FiServ', display_name: 'STAR NORTH EAST FISERV', routable_id: 41, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+43: {real_name: 'StarWest', display_name: 'STAR WEST', routable_id: 41, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+44: {real_name: 'STAR-WEST-FiServ', display_name: 'STAR WEST FISERV', routable_id: 41, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+45: {real_name: 'TEMPO-FiServ', display_name: 'TEMPO FISERV', routable_id: 45, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+46: {real_name: 'TTX(EBT - Team For Texas)', display_name: 'EBT - TTX', routable_id: 46, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+47: {real_name: 'Wells', display_name: 'WELLS', routable_id: 47, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+48: {real_name: 'PAVD Fiserv', display_name: 'PAVD FISERV', routable_id: 20, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+49: {real_name: 'PUC(Pulse China Union)', display_name: 'PULSE CHINA UNION', routable_id: 49, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+50: {real_name: 'NYCE Premier(34)', display_name: 'NYCE PREMIER', routable_id: 50, rateable_network: 1, premier: 1, premier_partner: 50, pin: 1, pinless: 1, sig: 0}
+51: {real_name: 'Pulse Pay Limited(36)', display_name: 'PULSE PAY LIMITED', routable_id: 51, rateable_network: 1, premier: 1, premier_partner: 51, pin: 1, pinless: 1, sig: 0}
+52: {real_name: 'STAR East Preferred(39)', display_name: 'STAR EAST PREFERRED', routable_id: 53, rateable_network: 0, premier: 1, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+53: {real_name: 'STAR NE Preferred(41)', display_name: 'STAR PREFERRED', routable_id: 53, rateable_network: 1, premier: 1, premier_partner: 53, pin: 1, pinless: 1, sig: 0}
+54: {real_name: 'STAR West Preferred(43)', display_name: 'STAR WEST PREFERRED', routable_id: 53, rateable_network: 0, premier: 1, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+55: {real_name: 'Jeanie Preferred(27)', display_name: 'JEANIE PREFERRED', routable_id: 55, rateable_network: 1, premier: 1, premier_partner: 55, pin: 1, pinless: 0, sig: 0}
+56: {real_name: 'Interlink Business', display_name: 'INTERLINK BUSINESS', routable_id: 56, rateable_network: 1, premier: 1, premier_partner: 56, pin: 1, pinless: 0, sig: 0}
+57: {real_name: 'Interlink Business Fiserv', display_name: 'INTERLINK BUSINESS FISERV', routable_id: 56, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+58: {real_name: 'PAVD Business', display_name: 'PAVD BUSINESS', routable_id: 58, rateable_network: 1, premier: 1, premier_partner: 58, pin: 1, pinless: 0, sig: 0}
+59: {real_name: 'PAVD Business Fiserv', display_name: 'PAVD BUSINESS FISERV', routable_id: 58, rateable_network: 0, premier: 0, premier_partner: nil, pin: 0, pinless: 0, sig: 0}
+60: {real_name: 'Visa Signature Debit', display_name: 'Visa Signature Debit', routable_id: 60, rateable_network: 1, premier: 1, premier_partner: 60, pin: 0, pinless: 0, sig: 1}
+61: {real_name: 'MasterCard Signature Debit', display_name: 'MasterCard Signature Debit', routable_id: 61, rateable_network: 1, premier: 1, premier_partner: 61, pin: 0, pinless: 0, sig: 1}
+62: {real_name: 'American Express Prepaid', display_name: 'American Express Prepaid', routable_id: 62, rateable_network: 0, premier: 0, premier_partner: nil, pin: 1, pinless: 0, sig: 0}
+63: {real_name: 'Discover Signature Debit', display_name: 'Discover Signature Debit', routable_id: 63, rateable_network: 0, premier: 1, premier_partner: 63, pin: 1, pinless: 0, sig: 0}
